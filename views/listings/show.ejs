@@ -88,7 +88,7 @@
     <div class="col-8 offset-3 mb-3">
         <h3>Where you'll be</h3>
         <div id="map"
-            data-coords="<%= JSON.stringify(listing.geometry.coordinates) %>"
+            data-coords="<%- JSON.stringify(listing.geometry.coordinates) %>"
             data-title="<%= listing.title %>">
         </div>
     </div>
