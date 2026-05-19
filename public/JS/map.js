@@ -14,7 +14,7 @@ if (mapDiv) {
     });
 
     const markerImg = document.createElement("img");
-    markerImg.src = "/images/airbnb.jpeg";
+    markerImg.src = "/images/Airbnb.jpeg";
     markerImg.classList.add("airbnb-marker");
 
     new maplibregl.Marker({ element: markerImg })
